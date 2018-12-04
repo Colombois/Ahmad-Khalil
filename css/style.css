@@ -1,11 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Amaranth';
+  font-family: 'PT Sans Narrow';
   color: #fff;
   scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
   height: 100%;
   width: 100%;
+}
+
+html {
+  overflow-x:  hidden;
 }
 
 #page-header {
@@ -21,10 +26,11 @@ html, body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .header-title h1 {
-  font-family: 'Amaranth';
+  font-family: 'PT Sans Narrow';
   font-size: 100px;
   padding: 0;
   margin: 0;
@@ -52,7 +58,7 @@ html, body {
   }
 
   to {
-    width: 260px;
+    width: 230px;
   }
 }
 
@@ -85,7 +91,7 @@ html, body {
   }
 
   to {
-    width: 900px;
+    width: 750px;
   }
 }
 
@@ -222,6 +228,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -273,12 +280,29 @@ nav ul li a {
   width: 75px;
 }
 
+.button {
+    background-color: #A35F1A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #9f6e3d;
+}
+
 #section-b {
   background: #000;
   min-height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #particles1-js {
@@ -373,6 +397,7 @@ nav ul li a {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 #section-c h1 {
@@ -502,7 +527,8 @@ Small Res View*/
   }
 
   .mobile-navigation ul li:hover {
-    background: #000;
+    background: #dbc08c;
+    color: #000;
     cursor: pointer;
   }
 
@@ -538,6 +564,10 @@ Small Res View*/
     width: 50px;
   }
 
+  .expanded {
+    width: 50px;
+  }
+
   .menu:hover div {
     width: 50px;
   }
@@ -553,7 +583,7 @@ Small Res View*/
     }
 
     to {
-      width: 130px;
+      width: 110px;
     }
   }
 

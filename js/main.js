@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+  $('#menu-button').click(function(){
+    if ($('#mobile').hasClass('animated fadeInDown')) {
+      $('#ham1, #ham2 , #ham3').removeClass('expanded');
+      $('#mobile').removeClass('animated fadeInDown');
+      $('.mobile-navigation').css("height","50px");
+      $('.mobile-navigation ul').css("visibility","hidden");
+    }
+    else {
+      $('#ham1, #ham2 , #ham3').addClass('expanded');
+      $('.mobile-navigation').css("height","250px");
+      $('#mobile').addClass('animated fadeInDown');
+      $('.mobile-navigation ul').css("visibility","visible");
+    }
+  })
+
   $("#hello").addClass("hidden").delay(3000).queue(function() {
     $(this).removeClass("greet").dequeue();
 
