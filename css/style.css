@@ -281,10 +281,11 @@ nav ul li a {
 }
 
 .button {
-    background-color: #A35F1A; /* Green */
+    background: #A35F1A;
     border: none;
-    color: white;
+    color: #fff;
     padding: 15px 32px;
+    margin-left: 27%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -293,7 +294,9 @@ nav ul li a {
 
 .button:hover {
   cursor: pointer;
-  background: #9f6e3d;
+  border: 1px solid #A35F1A;
+  background: #ffffff;
+  color: #000;
 }
 
 #section-b {
