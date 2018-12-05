@@ -193,7 +193,7 @@ nav ul li {
   text-align: center;
   text-decoration: none;
   list-style: none;
-  border: 2px solid #5e3000;
+  border: 2px solid #A35F1A;
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
@@ -213,9 +213,9 @@ nav ul li a {
 }
 
 .active {
-  border: 2px solid #6e5336;
+  border: 2px solid #A35F1A;
   border-radius: 50%;
-  background: #6e5336;
+  background: #A35F1A;
 }
 
 #section-a {
@@ -395,7 +395,7 @@ nav ul li a {
 #section-c {
   background: #fff;
   color: #000;
-  min-height: 87vh;
+  min-height: 90vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -430,7 +430,7 @@ nav ul li a {
 footer {
   background: #000;
   color: color:000;
-  height: 90px;
+  height: 10vh;
   text-align: center;
   position: relative;
   padding: 0;
